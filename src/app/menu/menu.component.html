@@ -1,0 +1,31 @@
+
+<div *ngIf="mobile$ | async">
+    <div class="left-navigation">
+        <div class="logo">
+            <a  [routerLink] = "['/']">
+                    <img src="../../assets/images/logo_small.jpg">
+            </a>
+        </div>
+    
+        <ul class="menu">
+            <li style="padding-bottom: 50px;"><a [routerLink] = "['']">HOME</a></li>
+            <li style="padding-bottom: 50px;"><a [routerLink] = "['/About']">ABOUT</a></li>
+            <li style="padding-bottom: 50px;"><a [routerLink] = "['/Companies']">COMPANIES</a></li>
+            <li style="padding-bottom: 50px;"><a [routerLink] = "['/Contact']">CONTACT</a></li>
+        </ul>
+    
+        <div class="fixed-footer">
+            © Avitronics International AB
+            <br>
+            2017 All rights reserved.
+        </div>
+    </div>
+</div>
+
+
+
+      
+
+
+
+      

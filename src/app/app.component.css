@@ -1,0 +1,21 @@
+.section-wrapper {
+    height: 100%;
+    margin-left: 400px;
+}
+
+@media screen and (max-width: 991px) {
+    .section-wrapper {
+        margin-left: 0px;
+    }
+}
+
+
+.move-wrapper {
+    background-color: #fff;
+    position: relative;
+    min-height: calc(100vmin - 160px);
+}
+
+.block-wrap-padding {
+    padding: 50px;
+}

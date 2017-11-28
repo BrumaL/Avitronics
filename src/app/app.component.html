@@ -1,38 +1,12 @@
-<div class="container">
-  <menu></menu>
-  <div class="row">
-    <div class="col-md-6">Tjenare</div>
-    <div class="col-md-6">Tjeeenare!!</div>
+
+<app-menu></app-menu>
+
+<div class="section-wrapper">
+  <div class="move-wrapper">
+    <div class="block-wrap-padding">
+        <router-outlet></router-outlet>
+    </div>
   </div>
-  <p>
-    <ngb-alert [dismissible]="false">
-      <strong>Warning!</strong>
-    </ngb-alert>
-  </p>
-
-  <ngb-carousel>
-      <ng-template ngbSlide>
-          <img src="https://lorempixel.com/900/500?r=4" alt="Random first slide">
-          <div class="carousel-caption">
-            <h3>10 seconds between slides...</h3>
-            <p>This carousel uses customized default values.</p>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <img src="https://lorempixel.com/900/500?r=5"  alt="Random second slide">
-          <div class="carousel-caption">
-            <h3>No keyboard...</h3>
-            <p>This carousel uses customized default values.</p>
-          </div>
-        </ng-template>
-        <ng-template ngbSlide>
-          <img src="https://lorempixel.com/900/500?r=6" alt="Random third slide">
-          <div class="carousel-caption">
-            <h3>And no wrap after last slide.</h3>
-            <p>This carousel uses customized default values.</p>
-          </div>
-        </ng-template>
-  </ngb-carousel>
-
 </div>
+
 

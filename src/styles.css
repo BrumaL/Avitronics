@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #F0F0F0;
+    min-height: 100%;
+    padding: 50px;
+    font-family: 'Raleway',serif;
+}

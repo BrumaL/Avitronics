@@ -1,0 +1,35 @@
+.left-navigation {
+    display: block;
+    width: 320px;
+    float: left;
+    z-index: 500;
+    min-height: calc(100vmin - 160px);
+    text-align: center;
+    background-color: white;
+    position: relative;
+    font-family: 'Raleway',serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 992px) {
+    .left-navigation {
+        position: fixed;
+    }
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+.logo {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+.fixed-footer {
+    font-size: 0.7rem;
+}

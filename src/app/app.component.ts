@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class AppComponent {
   
   constructor(config: NgbCarouselConfig) {
-    config.interval = 5000;
+    config.interval = 10000;
     config.wrap = true;
     config.keyboard = false;
   }
