@@ -3,12 +3,17 @@
     margin-left: 400px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1279px) {
+    .section-wrapper {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 959px) {
     .section-wrapper {
         margin-left: 0px;
     }
 }
-
 
 .move-wrapper {
     background-color: #fff;
@@ -18,4 +23,20 @@
 
 .block-wrap-padding {
     padding: 50px;
+}
+
+@media screen and (max-width: 959px) {
+    .block-wrap-padding {
+        padding: 20px;
+    }
+}
+
+.avisition {
+    padding: 50px;
+}
+
+@media screen and (max-width: 959px) {
+    .avisition {
+        padding: 0;
+    }
 }

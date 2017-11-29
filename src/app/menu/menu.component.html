@@ -1,17 +1,16 @@
-
-<div *ngIf="mobile$ | async">
+<div fxShow fxHide.lt-md>
     <div class="left-navigation">
         <div class="logo">
             <a  [routerLink] = "['/']">
-                    <img src="../../assets/images/logo_small.jpg">
+                    <img class="logo-left-size" src="../../assets/images/logo_small.jpg">
             </a>
         </div>
     
-        <ul class="menu">
-            <li style="padding-bottom: 50px;"><a [routerLink] = "['']">HOME</a></li>
-            <li style="padding-bottom: 50px;"><a [routerLink] = "['/About']">ABOUT</a></li>
-            <li style="padding-bottom: 50px;"><a [routerLink] = "['/Companies']">COMPANIES</a></li>
-            <li style="padding-bottom: 50px;"><a [routerLink] = "['/Contact']">CONTACT</a></li>
+        <ul>
+            <li class="menu-item" style="padding-bottom: 50px;"><a [routerLink] = "['']">HOME</a></li>
+            <li class="menu-item" style="padding-bottom: 50px;"><a [routerLink] = "['/About']">ABOUT</a></li>
+            <li class="menu-item" style="padding-bottom: 50px;"><a [routerLink] = "['/Companies']">COMPANIES</a></li>
+            <li class="menu-item" style="padding-bottom: 50px;"><a [routerLink] = "['/Contact']">CONTACT</a></li>
         </ul>
     
         <div class="fixed-footer">
@@ -22,7 +21,29 @@
     </div>
 </div>
 
-
+<div fxShow fxHide.gt-sm="true">
+    <div class="top-navigation">
+        <div class="logo">
+            <a  [routerLink] = "['/']">
+                <img class="logo-top-size" src="../../assets/images/logo_small.jpg">
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-3 top-menu-item">
+                <a style="color: black;" [routerLink] = "['']">HOME</a>
+            </div>
+            <div class="col-3 top-menu-item">
+                <a style="color: black;" [routerLink] = "['/About']">ABOUT</a>
+            </div>
+            <div class="col-3 top-menu-item">
+                <a style="color: black;" [routerLink] = "['/Companies']">COMPANIES</a>
+            </div>
+            <div class="col-3 top-menu-item">
+                <a style="color: black;" [routerLink] = "['/Contact']">CONTACT</a>
+            </div>
+        </div>
+    </div>
+</div>
 
       
 
