@@ -27,16 +27,18 @@
 
 @media screen and (max-width: 959px) {
     .block-wrap-padding {
-        padding: 20px;
+        padding: 25px;
     }
 }
 
 .avisition {
     padding: 50px;
+    font-family: 'Raleway',serif;
 }
 
 @media screen and (max-width: 959px) {
     .avisition {
         padding: 0;
+        font-size: 0.7rem;
     }
 }

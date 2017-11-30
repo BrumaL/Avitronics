@@ -8,7 +8,6 @@
     text-align: center;
     background-color: white;
     position: relative;
-    font-family: 'Raleway',serif;
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
@@ -26,25 +25,25 @@ ul {
     padding: 0;
   }
 
-.logo {
+.left-logo {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-@media screen and (max-width: 959px) {
-    .logo {
-        padding-top: 20px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-    }
-}
-
-@media screen and (max-width: 1279px) {
-    .logo {
+  @media screen and (max-width: 1279px) {
+    .left-logo {
         padding-top: 35px;
         padding-bottom: 25px;
     }
 }
+
+@media screen and (max-width: 959px) {
+    .top-logo {
+        padding: 25px;
+    }
+}
+
+
 
 .fixed-footer {
     font-size: 0.7rem;
@@ -73,4 +72,15 @@ ul {
 
 .top-menu-item {
     text-align: center;
+}
+
+.menu-item {
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 0
 }
