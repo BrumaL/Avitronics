@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',

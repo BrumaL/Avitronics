@@ -1,4 +1,4 @@
-.left-navigation {
+/* .left-navigation {
     display: block;
     width: 320px;
     float: left;
@@ -47,18 +47,30 @@ ul {
 
 .fixed-footer {
     font-size: 0.7rem;
-}
+} */
 
 .top-navigation {
     background-color: white;
     display: block;
-    z-index: 500;
-    position: relative;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
-@media screen and (max-width: 959px) {
+.icon-bar {
+    background-color: black !important;
+    height: 4px !important;
+}
+
+.menu-logo {
+    padding: 30px;
+}
+
+.menu-item {
+    color: black;
+    font-size: 16px;
+}
+
+/* @media screen and (max-width: 959px) {
     .logo-top-size {
         width: 150px;
     }
@@ -70,10 +82,6 @@ ul {
     }
 }
 
-.top-menu-item {
-    
-}
-
 .menu-item {
     padding-bottom: 50px;
 }
@@ -83,4 +91,4 @@ hr {
     margin-bottom: 0;
     border: 0;
     border-top: 0
-}
+} */

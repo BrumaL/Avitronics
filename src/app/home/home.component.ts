@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit {
     config.keyboard = false;
    }
 
+  info = "Avitronics International AB was started in 1994. The company has since then developed into a successful aviation electronics trading company, with markets in the Nordic countries, Eastern Europe, Russia, India and South East Asia. Avitronics is situated in Stockholm, Sweden.";
   ngOnInit() {
   }
 

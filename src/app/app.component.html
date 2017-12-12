@@ -1,14 +1,37 @@
-<div class="avisition">
-    <app-menu></app-menu>
-    
-    <div class="section-wrapper">
-      <div class="move-wrapper">
-        <div class="block-wrap-padding">
-            <router-outlet></router-outlet>
+<!-- <div class="avisition">
+  <div class="menu-wrapper">
+      <app-menu></app-menu>
+  </div>
+  <div class="section-wrapper">
+    <div class="move-wrapper">
+      <div class="block-wrap-padding">
+          <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="container">
+  <div class="avisition">
+    <div class="row">
+      <div class="col-12">
+        <app-menu></app-menu>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="section-wrapper">
+            <div class="move-wrapper">
+              <div class="block-wrap-padding">
+                <router-outlet></router-outlet>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </div>
 </div>
+
 
 
 
