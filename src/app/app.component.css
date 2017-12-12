@@ -22,11 +22,11 @@
 .move-wrapper {
     background-color: #fff;
     position: relative;
-    min-height: calc(100vmin - 160px);
+    min-height: calc(100vmin - 200px);
 }
 
  .block-wrap-padding {
-    padding: 50px;
+    padding: 25px 50px 50px 50px;
 } 
 
 /*
@@ -37,7 +37,7 @@
 } */
 
 .avisition {
-    padding: 50px;
+    /* padding: 50px; */
     font-family: 'Raleway',serif;
 }
 /* 

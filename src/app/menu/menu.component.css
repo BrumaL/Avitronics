@@ -70,6 +70,10 @@ ul {
     font-size: 16px;
 }
 
+.navbar {
+    margin-bottom: 0px;
+}
+
 /* @media screen and (max-width: 959px) {
     .logo-top-size {
         width: 150px;

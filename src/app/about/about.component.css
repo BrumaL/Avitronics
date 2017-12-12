@@ -1,0 +1,12 @@
+.org-chart {
+    padding-top: 15px;
+    max-width: 680px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}

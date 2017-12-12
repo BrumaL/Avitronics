@@ -3,3 +3,11 @@ body {
     min-height: 100%;
     font-family: 'Raleway',serif;
 }
+
+.page-title {
+    letter-spacing: 2px;
+    text-align: center;
+    font: bold;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
